@@ -1,0 +1,66 @@
+body{
+    height:100vh;
+    width:100vw;
+    justify-content:center;
+    overflow:hidden;
+}
+.categoryList,body{
+    display:flex;
+    align-items:center;
+}
+#Categories{
+    width:120%;
+    margin-left:-10%;
+}
+#Categories h1{
+    text-align:center;
+}
+.categoryList{
+    justify-content:space-between;
+}
+.categoryList button{
+    background-color:darkgrey;
+    width:100px;
+    height:50px;
+    border:none;
+    text-transform:uppercase;
+}
+#GameField{
+    display:none;
+    text-align:center;
+}
+#GuessingWordContainer{
+    display:flex;
+    height:40px;
+}
+span{
+    width:40px;
+    margin:0 5px;
+}
+span.guess{
+    border-bottom:2px solid black;
+}
+span.space{
+    width:20px;
+    margin:0 1px;
+}
+
+
+#UserAction{
+    padding-top:30px;
+}
+#UserAction > *{
+    display:inline-block;
+}
+form{
+    vertical-align:middle;
+    padding-right:10px;
+}
+
+#UserAction>div{
+    border-left:1px solid black;
+    padding-left:10px;
+}
+h3{
+    font-size:14px;
+}

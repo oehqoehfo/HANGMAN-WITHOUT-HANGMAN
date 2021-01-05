@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="Game">
+        <div id="Categories">
+            <h1>원하는 카테고리를 선택해 주세요</h1>
+            <div class="categoryList">
+                <button data-category="city">City</button>
+                <button data-category="country">Country</button>
+                <button data-category="verb">Verb</button>
+                <button data-category="noun">Noun</button>
+                <button data-category="animal">Animal</button>
+                <button data-category="adjectvie">Adjective</button>
+            </div>
+        </div>
+        <div id="GameField">
+            <div id="GuessingWord">
+                <h2>단어를 맞추세요</h2>
+                <div id="GuessingWordContainer">
+
+                </div>
+            </div>
+            <div id="UserAction">
+                <form action="#">
+                    <input type="text" placeholder="알파벳을 입력하세요">
+                    <input type="submit" value="엔터">
+                </form>
+                <div>
+                    <h3>틀린 알파벳</h3>
+                    <div id="TriedAlphabets">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+    <script src="callJSON.js"></script>
+</body>
+</html>
